@@ -1,0 +1,892 @@
+{
+ "run": "20261102-105848",
+ "models": {
+  "MatterSim-v1.0.0-1M.pth": {
+   "energies": {
+    "forsterite": -47.98433303833008,
+    "fayalite": -50.77916717529297,
+    "enstatite": -35.82864761352539,
+    "diopside": -73.36819458007812,
+    "wollastonite": -37.441446940104164,
+    "larnite": -50.5885124206543,
+    "anorthite": -98.92041778564453,
+    "lime": -12.877994537353516,
+    "periclase": -11.867490768432617,
+    "brucite": -26.867185592651367,
+    "portlandite": -28.132619857788086,
+    "quartz": -23.70617167154948,
+    "calcite": -37.480082194010414,
+    "magnesite": -35.76948038736979,
+    "siderite": -37.10406239827474,
+    "dolomite": -73.30070495605469,
+    "kaolinite": -114.54409790039062,
+    "CO2": -22.8497314453125,
+    "H2O": -14.0869779586792,
+    "H2O_l": -14.543007393306343
+   },
+   "meta": {
+    "forsterite": {
+     "E_unrelaxed": -191.38076782226562,
+     "E": -191.9373321533203,
+     "V0": 290.26563359795426,
+     "V": 300.2330225001396,
+     "steps": 54,
+     "converged": true,
+     "seconds": 12.2,
+     "atoms": 28,
+     "fu": 4.0,
+     "dV_pct": 3.43
+    },
+    "fayalite": {
+     "E_unrelaxed": -202.7334442138672,
+     "E": -203.11666870117188,
+     "V0": 306.3004636599002,
+     "V": 321.6713857282976,
+     "steps": 53,
+     "converged": true,
+     "seconds": 12.2,
+     "atoms": 28,
+     "fu": 4.0,
+     "dV_pct": 5.02
+    },
+    "enstatite": {
+     "E_unrelaxed": -572.1121215820312,
+     "E": -573.2583618164062,
+     "V0": 818.2437904784003,
+     "V": 861.8258937989324,
+     "steps": 157,
+     "converged": true,
+     "seconds": 59.9,
+     "atoms": 80,
+     "fu": 16.0,
+     "dV_pct": 5.33
+    },
+    "diopside": {
+     "E_unrelaxed": -289.9924621582031,
+     "E": -293.4727783203125,
+     "V0": 435.1723976823778,
+     "V": 455.29557993570074,
+     "steps": 95,
+     "converged": true,
+     "seconds": 24.7,
+     "atoms": 40,
+     "fu": 4.0,
+     "dV_pct": 4.62
+    },
+    "wollastonite": {
+     "E_unrelaxed": -224.3792724609375,
+     "E": -224.648681640625,
+     "V0": 396.96010194869797,
+     "V": 409.89739311708956,
+     "steps": 48,
+     "converged": true,
+     "seconds": 10.2,
+     "atoms": 30,
+     "fu": 6.0,
+     "dV_pct": 3.26
+    },
+    "larnite": {
+     "E_unrelaxed": -202.13111877441406,
+     "E": -202.3540496826172,
+     "V0": 345.17185275994234,
+     "V": 355.6987008697615,
+     "steps": 44,
+     "converged": true,
+     "seconds": 9.2,
+     "atoms": 28,
+     "fu": 4.0,
+     "dV_pct": 3.05
+    },
+    "anorthite": {
+     "E_unrelaxed": -790.2701416015625,
+     "E": -791.3633422851562,
+     "V0": 1338.9929694295536,
+     "V": 1381.645963634889,
+     "steps": 162,
+     "converged": true,
+     "seconds": 55.5,
+     "atoms": 104,
+     "fu": 8.0,
+     "dV_pct": 3.19
+    },
+    "lime": {
+     "E_unrelaxed": -51.445068359375,
+     "E": -51.51197814941406,
+     "V0": 118.15393064299992,
+     "V": 113.08965140810278,
+     "steps": 8,
+     "converged": true,
+     "seconds": 1.6,
+     "atoms": 8,
+     "fu": 4.0,
+     "dV_pct": -4.29
+    },
+    "periclase": {
+     "E_unrelaxed": -47.41288375854492,
+     "E": -47.46996307373047,
+     "V0": 74.02451414227203,
+     "V": 77.11451518176273,
+     "steps": 8,
+     "converged": true,
+     "seconds": 1.7,
+     "atoms": 8,
+     "fu": 4.0,
+     "dV_pct": 4.17
+    },
+    "brucite": {
+     "E_unrelaxed": -26.521705627441406,
+     "E": -26.867185592651367,
+     "V0": 36.145686329845375,
+     "V": 41.885775260638326,
+     "steps": 70,
+     "converged": true,
+     "seconds": 12.3,
+     "atoms": 5,
+     "fu": 1.0,
+     "dV_pct": 15.88
+    },
+    "portlandite": {
+     "E_unrelaxed": -28.0736026763916,
+     "E": -28.132619857788086,
+     "V0": 54.78321082259975,
+     "V": 57.16394957011059,
+     "steps": 37,
+     "converged": true,
+     "seconds": 6.4,
+     "atoms": 5,
+     "fu": 1.0,
+     "dV_pct": 4.35
+    },
+    "quartz": {
+     "E_unrelaxed": -71.00553131103516,
+     "E": -71.11851501464844,
+     "V0": 112.98475761353663,
+     "V": 117.57853297740357,
+     "steps": 36,
+     "converged": true,
+     "seconds": 6.3,
+     "atoms": 9,
+     "fu": 3.0,
+     "dV_pct": 4.07
+    },
+    "calcite": {
+     "E_unrelaxed": -223.84243774414062,
+     "E": -224.8804931640625,
+     "V0": 371.0831413004775,
+     "V": 381.23037230454497,
+     "steps": 51,
+     "converged": true,
+     "seconds": 10.9,
+     "atoms": 30,
+     "fu": 6.0,
+     "dV_pct": 2.73
+    },
+    "magnesite": {
+     "E_unrelaxed": -214.2272491455078,
+     "E": -214.61688232421875,
+     "V0": 272.32632722199355,
+     "V": 289.50636663742023,
+     "steps": 94,
+     "converged": true,
+     "seconds": 22.2,
+     "atoms": 30,
+     "fu": 6.0,
+     "dV_pct": 6.31
+    },
+    "siderite": {
+     "E_unrelaxed": -214.928955078125,
+     "E": -222.62437438964844,
+     "V0": 237.88734389398965,
+     "V": 304.8547904734831,
+     "steps": 235,
+     "converged": true,
+     "seconds": 57.3,
+     "atoms": 30,
+     "fu": 6.0,
+     "dV_pct": 28.15
+    },
+    "dolomite": {
+     "E_unrelaxed": -217.08499145507812,
+     "E": -219.90211486816406,
+     "V0": 320.50352908257554,
+     "V": 332.25901161505595,
+     "steps": 96,
+     "converged": true,
+     "seconds": 21.4,
+     "atoms": 30,
+     "fu": 3.0,
+     "dV_pct": 3.67
+    },
+    "kaolinite": {
+     "E_unrelaxed": -228.96041870117188,
+     "E": -229.08819580078125,
+     "V0": 329.7893228279817,
+     "V": 343.0753763599422,
+     "steps": 229,
+     "converged": true,
+     "seconds": 56.9,
+     "atoms": 34,
+     "fu": 2.0,
+     "dV_pct": 4.03
+    },
+    "CO2": {
+     "E_unrelaxed": -22.849239349365234,
+     "E": -22.8497314453125,
+     "V0": 4699.472895999997,
+     "V": 4699.472895999997,
+     "steps": 1,
+     "converged": true,
+     "seconds": 0.1
+    },
+    "H2O": {
+     "E_unrelaxed": -14.083711624145508,
+     "E": -14.0869779586792,
+     "V0": 4653.997513115232,
+     "V": 4653.997513115232,
+     "steps": 5,
+     "converged": true,
+     "seconds": 0.1
+    }
+   },
+   "reactions": {
+    "lime \u2192 calcite": {
+     "dE_relaxed": -169.1,
+     "dE_unrelaxed": -154.0,
+     "dH_exp": -178.8,
+     "kgCO2_per_t": 785.0,
+     "mineral": "lime",
+     "dE_corrected": -181.5
+    },
+    "periclase \u2192 magnesite": {
+     "dE_relaxed": -101.5,
+     "dE_unrelaxed": -96.6,
+     "dH_exp": -116.6,
+     "kgCO2_per_t": 1092.0,
+     "mineral": "periclase",
+     "dE_corrected": -113.9
+    },
+    "portlandite \u2192 calcite": {
+     "dE_relaxed": -100.4,
+     "dE_unrelaxed": -89.4,
+     "dH_exp": -114.5,
+     "kgCO2_per_t": 594.0,
+     "mineral": "portlandite",
+     "dE_corrected": -112.8
+    },
+    "brucite \u2192 magnesite": {
+     "dE_relaxed": -57.5,
+     "dE_unrelaxed": -84.5,
+     "dH_exp": -79.5,
+     "kgCO2_per_t": 755.0,
+     "mineral": "brucite",
+     "dE_corrected": -69.9
+    },
+    "larnite (slag) \u2192 calcite": {
+     "dE_relaxed": -114.7,
+     "dE_unrelaxed": -98.9,
+     "dH_exp": -115.5,
+     "kgCO2_per_t": 511.0,
+     "mineral": "larnite",
+     "dE_corrected": -127.1
+    },
+    "wollastonite \u2192 calcite": {
+     "dE_relaxed": -86.4,
+     "dE_unrelaxed": -70.4,
+     "dH_exp": -89.7,
+     "kgCO2_per_t": 379.0,
+     "mineral": "wollastonite",
+     "dE_corrected": -98.8
+    },
+    "forsterite (olivine) \u2192 magnesite": {
+     "dE_relaxed": -75.3,
+     "dE_unrelaxed": -74.0,
+     "dH_exp": -86.6,
+     "kgCO2_per_t": 626.0,
+     "mineral": "forsterite",
+     "dE_corrected": -87.7
+    },
+    "fayalite (olivine) \u2192 siderite": {
+     "dE_relaxed": -69.3,
+     "dE_unrelaxed": 51.7,
+     "dH_exp": -78.7,
+     "kgCO2_per_t": 432.0,
+     "mineral": "fayalite",
+     "dE_corrected": -81.7
+    },
+    "enstatite (pyroxene) \u2192 magnesite": {
+     "dE_relaxed": -76.9,
+     "dE_unrelaxed": -73.9,
+     "dH_exp": -83.9,
+     "kgCO2_per_t": 438.0,
+     "mineral": "enstatite",
+     "dE_corrected": -89.3
+    },
+    "diopside (pyroxene) \u2192 calcite+magnesite": {
+     "dE_relaxed": -76.9,
+     "dE_unrelaxed": -103.8,
+     "dH_exp": -75.6,
+     "kgCO2_per_t": 406.0,
+     "mineral": "diopside",
+     "dE_corrected": -89.3
+    },
+    "diopside (pyroxene) \u2192 dolomite": {
+     "dE_relaxed": -79.4,
+     "dE_unrelaxed": -72.4,
+     "dH_exp": -79.2,
+     "kgCO2_per_t": 406.0,
+     "mineral": "diopside",
+     "dE_corrected": -91.8
+    },
+    "anorthite (plagioclase) \u2192 calcite+kaolinite": {
+     "dE_relaxed": -112.7,
+     "dE_unrelaxed": -103.0,
+     "dH_exp": -134.0,
+     "kgCO2_per_t": 158.0,
+     "mineral": "anorthite",
+     "dE_corrected": -125.1
+    }
+   },
+   "co2_correction": -12.400000000000006,
+   "mae_raw": 9.07,
+   "mae_corrected": 7.669999999999999
+  },
+  "MatterSim-v1.0.0-5M.pth": {
+   "energies": {
+    "forsterite": -47.99210739135742,
+    "fayalite": -50.776763916015625,
+    "enstatite": -35.82425308227539,
+    "diopside": -73.35030364990234,
+    "wollastonite": -37.43152872721354,
+    "larnite": -50.56438064575195,
+    "anorthite": -98.91094970703125,
+    "lime": -12.876638412475586,
+    "periclase": -11.870116233825684,
+    "brucite": -26.86983299255371,
+    "portlandite": -28.15790557861328,
+    "quartz": -23.718922932942707,
+    "calcite": -37.45821889241537,
+    "magnesite": -35.77766418457031,
+    "siderite": -37.08418528238932,
+    "dolomite": -73.27020772298177,
+    "kaolinite": -114.58860778808594,
+    "CO2": -22.771503448486328,
+    "H2O": -14.132854461669922,
+    "H2O_l": -14.588883896297066
+   },
+   "meta": {
+    "forsterite": {
+     "E_unrelaxed": -191.4077606201172,
+     "E": -191.9684295654297,
+     "V0": 290.26563359795426,
+     "V": 300.6629116163008,
+     "steps": 54,
+     "converged": true,
+     "seconds": 17.8,
+     "atoms": 28,
+     "fu": 4.0,
+     "dV_pct": 3.58
+    },
+    "fayalite": {
+     "E_unrelaxed": -202.77066040039062,
+     "E": -203.1070556640625,
+     "V0": 306.3004636599002,
+     "V": 320.5419137348394,
+     "steps": 50,
+     "converged": true,
+     "seconds": 15.6,
+     "atoms": 28,
+     "fu": 4.0,
+     "dV_pct": 4.65
+    },
+    "enstatite": {
+     "E_unrelaxed": -571.9818725585938,
+     "E": -573.1880493164062,
+     "V0": 818.2437904784003,
+     "V": 863.420052209282,
+     "steps": 154,
+     "converged": true,
+     "seconds": 139.6,
+     "atoms": 80,
+     "fu": 16.0,
+     "dV_pct": 5.52
+    },
+    "diopside": {
+     "E_unrelaxed": -289.976318359375,
+     "E": -293.4012145996094,
+     "V0": 435.1723976823778,
+     "V": 455.4292604916193,
+     "steps": 83,
+     "converged": true,
+     "seconds": 39.1,
+     "atoms": 40,
+     "fu": 4.0,
+     "dV_pct": 4.65
+    },
+    "wollastonite": {
+     "E_unrelaxed": -224.3349609375,
+     "E": -224.58917236328125,
+     "V0": 396.96010194869797,
+     "V": 409.5213936301835,
+     "steps": 48,
+     "converged": true,
+     "seconds": 17.1,
+     "atoms": 30,
+     "fu": 6.0,
+     "dV_pct": 3.16
+    },
+    "larnite": {
+     "E_unrelaxed": -202.04209899902344,
+     "E": -202.2575225830078,
+     "V0": 345.17185275994234,
+     "V": 355.5242572733813,
+     "steps": 42,
+     "converged": true,
+     "seconds": 14.5,
+     "atoms": 28,
+     "fu": 4.0,
+     "dV_pct": 3.0
+    },
+    "anorthite": {
+     "E_unrelaxed": -790.22216796875,
+     "E": -791.28759765625,
+     "V0": 1338.9929694295536,
+     "V": 1381.0257122665687,
+     "steps": 162,
+     "converged": true,
+     "seconds": 132.9,
+     "atoms": 104,
+     "fu": 8.0,
+     "dV_pct": 3.14
+    },
+    "lime": {
+     "E_unrelaxed": -51.445213317871094,
+     "E": -51.506553649902344,
+     "V0": 118.15393064299992,
+     "V": 113.33068831846639,
+     "steps": 8,
+     "converged": true,
+     "seconds": 1.8,
+     "atoms": 8,
+     "fu": 4.0,
+     "dV_pct": -4.08
+    },
+    "periclase": {
+     "E_unrelaxed": -47.418052673339844,
+     "E": -47.480464935302734,
+     "V0": 74.02451414227203,
+     "V": 77.27379545494377,
+     "steps": 8,
+     "converged": true,
+     "seconds": 2.0,
+     "atoms": 8,
+     "fu": 4.0,
+     "dV_pct": 4.39
+    },
+    "brucite": {
+     "E_unrelaxed": -26.51773452758789,
+     "E": -26.86983299255371,
+     "V0": 36.145686329845375,
+     "V": 42.01067102935078,
+     "steps": 77,
+     "converged": true,
+     "seconds": 16.3,
+     "atoms": 5,
+     "fu": 1.0,
+     "dV_pct": 16.23
+    },
+    "portlandite": {
+     "E_unrelaxed": -28.103540420532227,
+     "E": -28.15790557861328,
+     "V0": 54.78321082259975,
+     "V": 55.92745642236784,
+     "steps": 39,
+     "converged": true,
+     "seconds": 8.3,
+     "atoms": 5,
+     "fu": 1.0,
+     "dV_pct": 2.09
+    },
+    "quartz": {
+     "E_unrelaxed": -71.03045654296875,
+     "E": -71.15676879882812,
+     "V0": 112.98475761353663,
+     "V": 119.12789011080908,
+     "steps": 44,
+     "converged": true,
+     "seconds": 9.3,
+     "atoms": 9,
+     "fu": 3.0,
+     "dV_pct": 5.44
+    },
+    "calcite": {
+     "E_unrelaxed": -223.70034790039062,
+     "E": -224.7493133544922,
+     "V0": 371.0831413004775,
+     "V": 381.8861294288299,
+     "steps": 123,
+     "converged": true,
+     "seconds": 39.5,
+     "atoms": 30,
+     "fu": 6.0,
+     "dV_pct": 2.91
+    },
+    "magnesite": {
+     "E_unrelaxed": -214.29722595214844,
+     "E": -214.66598510742188,
+     "V0": 272.32632722199355,
+     "V": 288.29606050428913,
+     "steps": 75,
+     "converged": true,
+     "seconds": 29.1,
+     "atoms": 30,
+     "fu": 6.0,
+     "dV_pct": 5.86
+    },
+    "siderite": {
+     "E_unrelaxed": -214.88037109375,
+     "E": -222.50511169433594,
+     "V0": 237.88734389398965,
+     "V": 303.5099499741971,
+     "steps": 159,
+     "converged": true,
+     "seconds": 58.6,
+     "atoms": 30,
+     "fu": 6.0,
+     "dV_pct": 27.59
+    },
+    "dolomite": {
+     "E_unrelaxed": -217.034912109375,
+     "E": -219.8106231689453,
+     "V0": 320.50352908257554,
+     "V": 331.82051230434956,
+     "steps": 53,
+     "converged": true,
+     "seconds": 19.1,
+     "atoms": 30,
+     "fu": 3.0,
+     "dV_pct": 3.53
+    },
+    "kaolinite": {
+     "E_unrelaxed": -229.05899047851562,
+     "E": -229.17721557617188,
+     "V0": 329.7893228279817,
+     "V": 342.14979823013283,
+     "steps": 196,
+     "converged": true,
+     "seconds": 74.5,
+     "atoms": 34,
+     "fu": 2.0,
+     "dV_pct": 3.75
+    },
+    "CO2": {
+     "E_unrelaxed": -22.77119255065918,
+     "E": -22.771503448486328,
+     "V0": 4699.472895999997,
+     "V": 4699.472895999997,
+     "steps": 1,
+     "converged": true,
+     "seconds": 0.2
+    },
+    "H2O": {
+     "E_unrelaxed": -14.129127502441406,
+     "E": -14.132854461669922,
+     "V0": 4653.997513115232,
+     "V": 4653.997513115232,
+     "steps": 5,
+     "converged": true,
+     "seconds": 0.1
+    }
+   },
+   "reactions": {
+    "lime \u2192 calcite": {
+     "dE_relaxed": -174.6,
+     "dE_unrelaxed": -159.3,
+     "dH_exp": -178.8,
+     "kgCO2_per_t": 785.0,
+     "mineral": "lime",
+     "dE_corrected": -180.2
+    },
+    "periclase \u2192 magnesite": {
+     "dE_relaxed": -109.6,
+     "dE_unrelaxed": -105.2,
+     "dH_exp": -116.6,
+     "kgCO2_per_t": 1092.0,
+     "mineral": "periclase",
+     "dE_corrected": -115.2
+    },
+    "portlandite \u2192 calcite": {
+     "dE_relaxed": -107.8,
+     "dE_unrelaxed": -96.2,
+     "dH_exp": -114.5,
+     "kgCO2_per_t": 594.0,
+     "mineral": "portlandite",
+     "dE_corrected": -113.4
+    },
+    "brucite \u2192 magnesite": {
+     "dE_relaxed": -70.0,
+     "dE_unrelaxed": -98.0,
+     "dH_exp": -79.5,
+     "kgCO2_per_t": 755.0,
+     "mineral": "brucite",
+     "dE_corrected": -75.6
+    },
+    "larnite (slag) \u2192 calcite": {
+     "dE_relaxed": -122.0,
+     "dE_unrelaxed": -105.7,
+     "dH_exp": -115.5,
+     "kgCO2_per_t": 511.0,
+     "mineral": "larnite",
+     "dE_corrected": -127.6
+    },
+    "wollastonite \u2192 calcite": {
+     "dE_relaxed": -94.0,
+     "dE_unrelaxed": -77.1,
+     "dH_exp": -89.7,
+     "kgCO2_per_t": 379.0,
+     "mineral": "wollastonite",
+     "dE_corrected": -99.6
+    },
+    "forsterite (olivine) \u2192 magnesite": {
+     "dE_relaxed": -83.9,
+     "dE_unrelaxed": -82.7,
+     "dH_exp": -86.6,
+     "kgCO2_per_t": 626.0,
+     "mineral": "forsterite",
+     "dE_corrected": -89.5
+    },
+    "fayalite (olivine) \u2192 siderite": {
+     "dE_relaxed": -75.6,
+     "dE_unrelaxed": 45.0,
+     "dH_exp": -78.7,
+     "kgCO2_per_t": 432.0,
+     "mineral": "fayalite",
+     "dE_corrected": -81.2
+    },
+    "enstatite (pyroxene) \u2192 magnesite": {
+     "dE_relaxed": -86.9,
+     "dE_unrelaxed": -84.2,
+     "dH_exp": -83.9,
+     "kgCO2_per_t": 438.0,
+     "mineral": "enstatite",
+     "dE_corrected": -92.5
+    },
+    "diopside (pyroxene) \u2192 calcite+magnesite": {
+     "dE_relaxed": -85.9,
+     "dE_unrelaxed": -111.7,
+     "dH_exp": -75.6,
+     "kgCO2_per_t": 406.0,
+     "mineral": "diopside",
+     "dE_corrected": -91.5
+    },
+    "diopside (pyroxene) \u2192 dolomite": {
+     "dE_relaxed": -87.5,
+     "dE_unrelaxed": -80.2,
+     "dH_exp": -79.2,
+     "kgCO2_per_t": 406.0,
+     "mineral": "diopside",
+     "dE_corrected": -93.1
+    },
+    "anorthite (plagioclase) \u2192 calcite+kaolinite": {
+     "dE_relaxed": -114.5,
+     "dE_unrelaxed": -104.8,
+     "dH_exp": -134.0,
+     "kgCO2_per_t": 158.0,
+     "mineral": "anorthite",
+     "dE_corrected": -120.1
+    }
+   },
+   "co2_correction": -5.6000000000000085,
+   "mae_raw": 7.390000000000001,
+   "mae_corrected": 8.469999999999999
+  }
+ },
+ "sources": [
+  {
+   "name": "forsterite",
+   "cod_id": "9015658",
+   "formula": "- Mg2 O4 Si -",
+   "sg": "P n m a",
+   "a": "10.20141",
+   "vol": "290.266",
+   "year": "1999",
+   "n_candidates": 37
+  },
+  {
+   "name": "fayalite",
+   "cod_id": "9007046",
+   "formula": "- Fe2 O4 Si -",
+   "sg": "P n m a",
+   "a": "10.4597",
+   "vol": "306.3",
+   "year": "2002",
+   "n_candidates": 21
+  },
+  {
+   "name": "enstatite",
+   "cod_id": "9001595",
+   "formula": "- Mg O3 Si -",
+   "sg": "P b c a",
+   "a": "18.148",
+   "vol": "818.244",
+   "year": "1994",
+   "n_candidates": 27
+  },
+  {
+   "name": "diopside",
+   "cod_id": "1011047",
+   "formula": "- Ca Mg O6 Si2 -",
+   "sg": "C 1 2/c 1",
+   "a": "9.71",
+   "vol": "435.2",
+   "year": "1931",
+   "n_candidates": 27
+  },
+  {
+   "name": "wollastonite",
+   "cod_id": "9005777",
+   "formula": "- Ca O3 Si -",
+   "sg": "P -1",
+   "a": "7.9258",
+   "vol": "396.96",
+   "year": "1984",
+   "n_candidates": 3
+  },
+  {
+   "name": "larnite",
+   "cod_id": "9017424",
+   "formula": "- Ca2 O4 Si -",
+   "sg": "P 1 21/n 1",
+   "a": "5.5051",
+   "vol": "345.172",
+   "year": "2011",
+   "n_candidates": 7
+  },
+  {
+   "name": "anorthite",
+   "cod_id": "9001259",
+   "formula": "- Al2 Ca O8 Si2 -",
+   "sg": "P -1",
+   "a": "8.1796",
+   "vol": "1338.99",
+   "year": "1990",
+   "n_candidates": 10
+  },
+  {
+   "name": "lime",
+   "cod_id": "9006733",
+   "formula": "- Ca O -",
+   "sg": "F m -3 m",
+   "a": "4.907",
+   "vol": "118.154",
+   "year": "1999",
+   "n_candidates": 58
+  },
+  {
+   "name": "periclase",
+   "cod_id": "9006788",
+   "formula": "- Mg O -",
+   "sg": "F m -3 m",
+   "a": "4.1988",
+   "vol": "74.025",
+   "year": "2000",
+   "n_candidates": 200
+  },
+  {
+   "name": "brucite",
+   "cod_id": "9006331",
+   "formula": "- H2 Mg O2 -",
+   "sg": "P -3 m 1",
+   "a": "3.0698",
+   "vol": "36.146",
+   "year": "1995",
+   "n_candidates": 12
+  },
+  {
+   "name": "portlandite",
+   "cod_id": "1001768",
+   "formula": "- Ca H2 O2 -",
+   "sg": "P -3 m 1",
+   "a": "3.589",
+   "vol": "54.8",
+   "year": "1993",
+   "n_candidates": 14
+  },
+  {
+   "name": "quartz",
+   "cod_id": "1011172",
+   "formula": "- O2 Si -",
+   "sg": "P 31 2 1",
+   "a": "4.913",
+   "vol": "113",
+   "year": "1939",
+   "n_candidates": 41
+  },
+  {
+   "name": "calcite",
+   "cod_id": "9016464",
+   "formula": "- C Ca O3 -",
+   "sg": "R -3 c :H",
+   "a": "4.9775",
+   "vol": "371.083",
+   "year": "2010",
+   "n_candidates": 56
+  },
+  {
+   "name": "magnesite",
+   "cod_id": "9001851",
+   "formula": "- C Mg O3 -",
+   "sg": "R -3 c :H",
+   "a": "4.6068",
+   "vol": "272.326",
+   "year": "1997",
+   "n_candidates": 28
+  },
+  {
+   "name": "siderite",
+   "cod_id": "9015828",
+   "formula": "- C Fe O3 -",
+   "sg": "R -3 c :H",
+   "a": "4.518",
+   "vol": "237.887",
+   "year": "2010",
+   "n_candidates": 37
+  },
+  {
+   "name": "dolomite",
+   "cod_id": "9000105",
+   "formula": "- C2 Ca Mg O6 -",
+   "sg": "R -3 :H",
+   "a": "4.8079",
+   "vol": "320.504",
+   "year": "1961",
+   "n_candidates": 46
+  },
+  {
+   "name": "kaolinite",
+   "cod_id": "1550598",
+   "formula": "- Al2 H4 O9 Si2 -",
+   "sg": "P 1",
+   "a": "5.17375",
+   "vol": "329.789",
+   "year": "2019",
+   "n_candidates": 4
+  }
+ ],
+ "basalt": {
+  "modes": {
+   "anorthite": 0.5,
+   "diopside": 0.25,
+   "enstatite": 0.1,
+   "forsterite": 0.07,
+   "fayalite": 0.03
+  },
+  "contribution_kg_per_t": {
+   "anorthite": 79.0,
+   "diopside": 101.5,
+   "enstatite": 43.800000000000004,
+   "forsterite": 43.82000000000001,
+   "fayalite": 12.959999999999999
+  },
+  "total_kg_per_t": 281.08
+ }
+}

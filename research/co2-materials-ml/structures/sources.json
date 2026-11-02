@@ -1,0 +1,172 @@
+[
+ {
+  "name": "forsterite",
+  "cod_id": "9015658",
+  "formula": "- Mg2 O4 Si -",
+  "sg": "P n m a",
+  "a": "10.20141",
+  "vol": "290.266",
+  "year": "1999",
+  "n_candidates": 37
+ },
+ {
+  "name": "fayalite",
+  "cod_id": "9007046",
+  "formula": "- Fe2 O4 Si -",
+  "sg": "P n m a",
+  "a": "10.4597",
+  "vol": "306.3",
+  "year": "2002",
+  "n_candidates": 21
+ },
+ {
+  "name": "enstatite",
+  "cod_id": "9001595",
+  "formula": "- Mg O3 Si -",
+  "sg": "P b c a",
+  "a": "18.148",
+  "vol": "818.244",
+  "year": "1994",
+  "n_candidates": 27
+ },
+ {
+  "name": "diopside",
+  "cod_id": "1011047",
+  "formula": "- Ca Mg O6 Si2 -",
+  "sg": "C 1 2/c 1",
+  "a": "9.71",
+  "vol": "435.2",
+  "year": "1931",
+  "n_candidates": 27
+ },
+ {
+  "name": "wollastonite",
+  "cod_id": "9005777",
+  "formula": "- Ca O3 Si -",
+  "sg": "P -1",
+  "a": "7.9258",
+  "vol": "396.96",
+  "year": "1984",
+  "n_candidates": 3
+ },
+ {
+  "name": "larnite",
+  "cod_id": "9017424",
+  "formula": "- Ca2 O4 Si -",
+  "sg": "P 1 21/n 1",
+  "a": "5.5051",
+  "vol": "345.172",
+  "year": "2011",
+  "n_candidates": 7
+ },
+ {
+  "name": "anorthite",
+  "cod_id": "9001259",
+  "formula": "- Al2 Ca O8 Si2 -",
+  "sg": "P -1",
+  "a": "8.1796",
+  "vol": "1338.99",
+  "year": "1990",
+  "n_candidates": 10
+ },
+ {
+  "name": "lime",
+  "cod_id": "9006733",
+  "formula": "- Ca O -",
+  "sg": "F m -3 m",
+  "a": "4.907",
+  "vol": "118.154",
+  "year": "1999",
+  "n_candidates": 58
+ },
+ {
+  "name": "periclase",
+  "cod_id": "9006788",
+  "formula": "- Mg O -",
+  "sg": "F m -3 m",
+  "a": "4.1988",
+  "vol": "74.025",
+  "year": "2000",
+  "n_candidates": 200
+ },
+ {
+  "name": "brucite",
+  "cod_id": "9006331",
+  "formula": "- H2 Mg O2 -",
+  "sg": "P -3 m 1",
+  "a": "3.0698",
+  "vol": "36.146",
+  "year": "1995",
+  "n_candidates": 12
+ },
+ {
+  "name": "portlandite",
+  "cod_id": "1001768",
+  "formula": "- Ca H2 O2 -",
+  "sg": "P -3 m 1",
+  "a": "3.589",
+  "vol": "54.8",
+  "year": "1993",
+  "n_candidates": 14
+ },
+ {
+  "name": "quartz",
+  "cod_id": "1011172",
+  "formula": "- O2 Si -",
+  "sg": "P 31 2 1",
+  "a": "4.913",
+  "vol": "113",
+  "year": "1939",
+  "n_candidates": 41
+ },
+ {
+  "name": "calcite",
+  "cod_id": "9016464",
+  "formula": "- C Ca O3 -",
+  "sg": "R -3 c :H",
+  "a": "4.9775",
+  "vol": "371.083",
+  "year": "2010",
+  "n_candidates": 56
+ },
+ {
+  "name": "magnesite",
+  "cod_id": "9001851",
+  "formula": "- C Mg O3 -",
+  "sg": "R -3 c :H",
+  "a": "4.6068",
+  "vol": "272.326",
+  "year": "1997",
+  "n_candidates": 28
+ },
+ {
+  "name": "siderite",
+  "cod_id": "9015828",
+  "formula": "- C Fe O3 -",
+  "sg": "R -3 c :H",
+  "a": "4.518",
+  "vol": "237.887",
+  "year": "2010",
+  "n_candidates": 37
+ },
+ {
+  "name": "dolomite",
+  "cod_id": "9000105",
+  "formula": "- C2 Ca Mg O6 -",
+  "sg": "R -3 :H",
+  "a": "4.8079",
+  "vol": "320.504",
+  "year": "1961",
+  "n_candidates": 46
+ },
+ {
+  "name": "kaolinite",
+  "cod_id": "1550598",
+  "formula": "- Al2 H4 O9 Si2 -",
+  "sg": "P 1",
+  "a": "5.17375",
+  "vol": "329.789",
+  "year": "2019",
+  "n_candidates": 4
+ }
+]

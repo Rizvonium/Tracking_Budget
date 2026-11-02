@@ -1,0 +1,77 @@
+
+=== model MatterSim-v1.0.0-1M.pth ===
+  forsterite    atoms= 28 fu=4 E/fu=  -47.9843 eV  ΔV= +3.43%  steps= 54 conv=True  12.2s
+  fayalite      atoms= 28 fu=4 E/fu=  -50.7792 eV  ΔV= +5.02%  steps= 53 conv=True  12.2s
+  enstatite     atoms= 80 fu=16 E/fu=  -35.8286 eV  ΔV= +5.33%  steps=157 conv=True  59.9s
+  diopside      atoms= 40 fu=4 E/fu=  -73.3682 eV  ΔV= +4.62%  steps= 95 conv=True  24.7s
+  wollastonite  atoms= 30 fu=6 E/fu=  -37.4414 eV  ΔV= +3.26%  steps= 48 conv=True  10.2s
+  larnite       atoms= 28 fu=4 E/fu=  -50.5885 eV  ΔV= +3.05%  steps= 44 conv=True  9.2s
+  anorthite     atoms=104 fu=8 E/fu=  -98.9204 eV  ΔV= +3.19%  steps=162 conv=True  55.5s
+  lime          atoms=  8 fu=4 E/fu=  -12.8780 eV  ΔV= -4.29%  steps=  8 conv=True  1.6s
+  periclase     atoms=  8 fu=4 E/fu=  -11.8675 eV  ΔV= +4.17%  steps=  8 conv=True  1.7s
+  brucite       atoms=  5 fu=1 E/fu=  -26.8672 eV  ΔV=+15.88%  steps= 70 conv=True  12.3s
+  portlandite   atoms=  5 fu=1 E/fu=  -28.1326 eV  ΔV= +4.35%  steps= 37 conv=True  6.4s
+  quartz        atoms=  9 fu=3 E/fu=  -23.7062 eV  ΔV= +4.07%  steps= 36 conv=True  6.3s
+  calcite       atoms= 30 fu=6 E/fu=  -37.4801 eV  ΔV= +2.73%  steps= 51 conv=True  10.9s
+  magnesite     atoms= 30 fu=6 E/fu=  -35.7695 eV  ΔV= +6.31%  steps= 94 conv=True  22.2s
+  siderite      atoms= 30 fu=6 E/fu=  -37.1041 eV  ΔV=+28.15%  steps=235 conv=True  57.3s
+  dolomite      atoms= 30 fu=3 E/fu=  -73.3007 eV  ΔV= +3.67%  steps= 96 conv=True  21.4s
+  kaolinite     atoms= 34 fu=2 E/fu= -114.5441 eV  ΔV= +4.03%  steps=229 conv=True  56.9s
+  CO2           E=-22.8497 eV
+  H2O           E=-14.0870 eV
+
+  reaction                                      ΔE relaxed  unrelaxed  corrected  expt ΔH  kgCO2/t
+  lime → calcite                                    -169.1     -154.0     -181.5   -178.8      785
+  periclase → magnesite                             -101.5      -96.6     -113.9   -116.6     1092
+  portlandite → calcite                             -100.4      -89.4     -112.8   -114.5      594
+  brucite → magnesite                                -57.5      -84.5      -69.9    -79.5      755
+  larnite (slag) → calcite                          -114.7      -98.9     -127.1   -115.5      511
+  wollastonite → calcite                             -86.4      -70.4      -98.8    -89.7      379
+  forsterite (olivine) → magnesite                   -75.3      -74.0      -87.7    -86.6      626
+  fayalite (olivine) → siderite                      -69.3       51.7      -81.7    -78.7      432
+  enstatite (pyroxene) → magnesite                   -76.9      -73.9      -89.3    -83.9      438
+  diopside (pyroxene) → calcite+magnesite            -76.9     -103.8      -89.3    -75.6      406
+  diopside (pyroxene) → dolomite                     -79.4      -72.4      -91.8    -79.2      406
+  anorthite (plagioclase) → calcite+kaolinite       -112.7     -103.0     -125.1   -134.0      158
+  CO2 correction (fit on lime+periclase) = -12.4 kJ/mol; MAE on 10 held-out reactions: raw 9.1 → corrected 7.7 kJ/mol
+
+=== model MatterSim-v1.0.0-5M.pth ===
+  forsterite    atoms= 28 fu=4 E/fu=  -47.9921 eV  ΔV= +3.58%  steps= 54 conv=True  17.8s
+  fayalite      atoms= 28 fu=4 E/fu=  -50.7768 eV  ΔV= +4.65%  steps= 50 conv=True  15.6s
+  enstatite     atoms= 80 fu=16 E/fu=  -35.8243 eV  ΔV= +5.52%  steps=154 conv=True  139.6s
+  diopside      atoms= 40 fu=4 E/fu=  -73.3503 eV  ΔV= +4.65%  steps= 83 conv=True  39.1s
+  wollastonite  atoms= 30 fu=6 E/fu=  -37.4315 eV  ΔV= +3.16%  steps= 48 conv=True  17.1s
+  larnite       atoms= 28 fu=4 E/fu=  -50.5644 eV  ΔV= +3.00%  steps= 42 conv=True  14.5s
+  anorthite     atoms=104 fu=8 E/fu=  -98.9109 eV  ΔV= +3.14%  steps=162 conv=True  132.9s
+  lime          atoms=  8 fu=4 E/fu=  -12.8766 eV  ΔV= -4.08%  steps=  8 conv=True  1.8s
+  periclase     atoms=  8 fu=4 E/fu=  -11.8701 eV  ΔV= +4.39%  steps=  8 conv=True  2.0s
+  brucite       atoms=  5 fu=1 E/fu=  -26.8698 eV  ΔV=+16.23%  steps= 77 conv=True  16.3s
+  portlandite   atoms=  5 fu=1 E/fu=  -28.1579 eV  ΔV= +2.09%  steps= 39 conv=True  8.3s
+  quartz        atoms=  9 fu=3 E/fu=  -23.7189 eV  ΔV= +5.44%  steps= 44 conv=True  9.3s
+  calcite       atoms= 30 fu=6 E/fu=  -37.4582 eV  ΔV= +2.91%  steps=123 conv=True  39.5s
+  magnesite     atoms= 30 fu=6 E/fu=  -35.7777 eV  ΔV= +5.86%  steps= 75 conv=True  29.1s
+  siderite      atoms= 30 fu=6 E/fu=  -37.0842 eV  ΔV=+27.59%  steps=159 conv=True  58.6s
+  dolomite      atoms= 30 fu=3 E/fu=  -73.2702 eV  ΔV= +3.53%  steps= 53 conv=True  19.1s
+  kaolinite     atoms= 34 fu=2 E/fu= -114.5886 eV  ΔV= +3.75%  steps=196 conv=True  74.5s
+  CO2           E=-22.7715 eV
+  H2O           E=-14.1329 eV
+
+  reaction                                      ΔE relaxed  unrelaxed  corrected  expt ΔH  kgCO2/t
+  lime → calcite                                    -174.6     -159.3     -180.2   -178.8      785
+  periclase → magnesite                             -109.6     -105.2     -115.2   -116.6     1092
+  portlandite → calcite                             -107.8      -96.2     -113.4   -114.5      594
+  brucite → magnesite                                -70.0      -98.0      -75.6    -79.5      755
+  larnite (slag) → calcite                          -122.0     -105.7     -127.6   -115.5      511
+  wollastonite → calcite                             -94.0      -77.1      -99.6    -89.7      379
+  forsterite (olivine) → magnesite                   -83.9      -82.7      -89.5    -86.6      626
+  fayalite (olivine) → siderite                      -75.6       45.0      -81.2    -78.7      432
+  enstatite (pyroxene) → magnesite                   -86.9      -84.2      -92.5    -83.9      438
+  diopside (pyroxene) → calcite+magnesite            -85.9     -111.7      -91.5    -75.6      406
+  diopside (pyroxene) → dolomite                     -87.5      -80.2      -93.1    -79.2      406
+  anorthite (plagioclase) → calcite+kaolinite       -114.5     -104.8     -120.1   -134.0      158
+  CO2 correction (fit on lime+periclase) = -5.6 kJ/mol; MAE on 10 held-out reactions: raw 7.4 → corrected 8.5 kJ/mol
+
+Experiment D: illustrative basalt (97% of mass as 5 end-members) max CO2 uptake ≈ 281 kg CO2 per tonne → 1 t CO2 per 3.6 t rock
+  (Fe-bearing siderite pathway is unlikely in oxidising soils; Alt Carbon claims 1 t CO2 : 4 t basalt)
+
+Saved results/results_20261102-105848.json
