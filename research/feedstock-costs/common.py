@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager as fm
 import os
 FD = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
-for f in os.listdir(FD):
+for f in (os.listdir(FD) if os.path.isdir(FD) else []):
     if f.endswith(".ttf"): fm.fontManager.addfont(os.path.join(FD, f))
 plt.rcParams.update({
-    "font.family": "Inter", "font.size": 10, "axes.edgecolor": "#c9c7c0",
+    "font.family": ("Inter" if os.path.isdir(FD) else "DejaVu Sans"), "font.size": 10, "axes.edgecolor": "#c9c7c0",
     "axes.labelcolor": "#52514e", "xtick.color": "#52514e", "ytick.color": "#52514e",
     "axes.spines.top": False, "axes.spines.right": False, "axes.titleweight": "semibold",
     "axes.titlesize": 12, "axes.titlecolor": "#0b0b0b", "text.color": "#0b0b0b",
