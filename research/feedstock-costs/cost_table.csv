@@ -1,0 +1,6 @@
+feedstock,material_inr,grind_inr,delivered_inr_mid,t_co2_per_t,usd_per_tco2_theoretical_low,usd_per_tco2_theoretical_mid,usd_per_tco2_theoretical_high,usd_per_tco2_realistic_best,usd_per_tco2_realistic_worst,notes
+Basalt quarry fines (Alt Carbon's choice),400–1300,0,1500.0,0.25,55,68,95,170,682,already fine; widely available; slow
+Steel slag (BF/SMS),150–500,400,1500.0,0.35,44,49,55,70,162,fast-reacting; 19+ Mt/yr; heavy-metal & regulatory checks
+Dunite / olivine rock,800–2500,800,3100.0,0.5,55,70,93,141,352,high capacity; Ni/Cr risk; limited deposits
+Wollastonite,900–2500,800,3100.0,0.38,75,93,123,116,232,fast; India is a producer (Rajasthan); competes with industrial uses
+Fly ash (Class F),0–1000,0,1400.0,0.04,227,398,511,568,1326,abundant but almost no Ca/Mg in Indian Class F ash
