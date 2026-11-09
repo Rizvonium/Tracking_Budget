@@ -1,0 +1,61 @@
+<title>Inversion Assignment Report</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Serif:wght@500;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: single reading column with a sticky contents rail on wide screens; tables scroll in place. */
+:root {
+  --bg: #f6f8f9; --surface: #ffffff; --fg: #1b2328; --muted: #5b6a73; --rule: #d5dde2;
+  --accent: #1f5f8b; --warm: #b8432f; --code: #eef2f4;
+  --f-display: "IBM Plex Serif", Georgia, serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12171b; --surface: #182026; --fg: #e3e9ec; --muted: #9aa8b1; --rule: #2c3840;
+  --accent: #6fb0dc; --warm: #e57f68; --code: #1e282f; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12171b; --surface: #182026; --fg: #e3e9ec; --muted: #9aa8b1; --rule: #2c3840;
+  --accent: #6fb0dc; --warm: #e57f68; --code: #1e282f; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 16px/1.6 var(--f-body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 64px; }
+.wrap { max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr); gap: 40px; }
+@media (min-width: 1100px) { .wrap { grid-template-columns: 260px minmax(0, 1fr); } }
+header.mast { grid-column: 1 / -1; padding-block: 48px 8px; border-bottom: 1px solid var(--rule); }
+.eyebrow { font: 600 12px/1.4 var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+header.mast h1 { font: 600 clamp(28px, 4vw, 44px)/1.15 var(--f-display); margin: 8px 0 12px; text-wrap: balance; }
+header.mast p { margin: 0 0 6px; color: var(--muted); max-width: 70ch; }
+.field { font: 12px/1.5 var(--f-mono); color: var(--muted); margin-top: 16px; }
+nav#toc { font-size: 14px; }
+@media (min-width: 1100px) { nav#toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); align-self: start; max-height: calc(100vh - 32px); overflow-y: auto; padding-top: 24px; } }
+nav#toc h2 { font: 600 12px/1.4 var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; border: 0; padding: 0; }
+nav#toc ul { list-style: none; margin: 0; padding: 0 0 0 12px; }
+nav#toc > ul { padding-left: 0; }
+nav#toc li { margin: 3px 0; }
+nav#toc a { color: var(--fg); text-decoration: none; }
+nav#toc a:hover, nav#toc a:focus-visible { color: var(--accent); text-decoration: underline; }
+main { min-width: 0; max-width: 860px; }
+main h1 { font: 600 30px/1.2 var(--f-display); margin: 56px 0 12px; padding-top: 20px; border-top: 2px solid var(--fg); text-wrap: balance; }
+main h2 { font: 600 22px/1.3 var(--f-display); margin: 36px 0 10px; text-wrap: balance; }
+main h3 { font: 600 17px/1.35 var(--f-body); margin: 28px 0 8px; }
+main h4, main h5 { font: 600 15px/1.4 var(--f-body); margin: 22px 0 6px; color: var(--muted); }
+main p, main li { max-width: 72ch; }
+a { color: var(--accent); }
+strong { font-weight: 600; }
+code { font: 0.88em var(--f-mono); background: var(--code); padding: 1px 4px; border-radius: 3px; }
+pre { background: var(--code); padding: 12px 14px; overflow-x: auto; border-radius: 4px; font-size: 13px; }
+pre code { background: none; padding: 0; }
+.tw { overflow-x: auto; margin: 16px 0; border: 1px solid var(--rule); border-radius: 4px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; vertical-align: top; padding: 7px 10px; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; background: var(--code); }
+tr:last-child td { border-bottom: 0; }
+figure { margin: 24px 0; }
+figure img { display: block; max-width: 100%; height: auto; background: #fff; border: 1px solid var(--rule); border-radius: 4px; padding: 6px; }
+figcaption { font-size: 13.5px; color: var(--muted); margin-top: 8px; max-width: 80ch; }
+blockquote { margin: 16px 0; padding: 4px 16px; border-left: 3px solid var(--warm); color: var(--muted); }
+math { font-size: 1.05em; }
+math[display="block"] { overflow-x: auto; max-width: 100%; padding: 4px 0; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 32px 0; }
+@media print { nav#toc { display: none; } .wrap { display: block; } body { background: #fff; } main { max-width: none; } }
+</style>
